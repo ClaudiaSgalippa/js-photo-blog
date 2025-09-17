@@ -15,6 +15,10 @@ main {
     background-image: url("img/cork.png");
 }
 
+img {
+    max-width: 100%;
+}
+
 #container-header {
     text-align: center;
     font-size: xx-large;
@@ -26,6 +30,20 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    height: 600px;
-    width: 600px;
+    padding: 50px;
+    width: 80%;
 }
+
+.card {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    background-color: white;
+}
+
+.pin {
+    position: absolute;
+    transform: translate(100px, -20px);
+}
+
+/*EFFETTO HOVER POST VIDEO*/
