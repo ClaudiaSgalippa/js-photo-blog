@@ -2,4 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Edu Tas Beginner', sans-serif;
+}
+
+header {
+    height: 120px;
+    background-image: url("img/wall.png");
+}
+
+body {
+    background-image: url("img/cork.png");
+}
+
+#container-header {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: xx-large;
+    justify-content: center;
+    padding-block: 20px;
 }
