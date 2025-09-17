@@ -7,17 +7,25 @@
 
 header {
     height: 120px;
+    background-size: cover;
     background-image: url("img/wall.png");
 }
 
-body {
+main {
     background-image: url("img/cork.png");
 }
 
 #container-header {
+    text-align: center;
+    font-size: xx-large;
+    padding-block: 20px;
+}
+
+#container-body {
     display: flex;
     flex-wrap: wrap;
-    font-size: xx-large;
     justify-content: center;
-    padding-block: 20px;
+    margin: 0 auto;
+    height: 600px;
+    width: 600px;
 }
