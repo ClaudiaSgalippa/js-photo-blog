@@ -17,13 +17,11 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
                             <img src="${card.url}" alt="photo">
                         </div>
                         <div>
-                            <h4>${card.title}</h4>
-                            <span>${card.date}</span>
+                            <span class="date">${card.date}</span>
+                            <h4 class="title">${card.title}</h4>
                         </div>
                     </div>`
         }) //Recuperiamo il <div> dall'HTML e inseriamo i collegamenti per gli oggetti 
         containerCards.innerHTML = fakePolaroid;
     })
-
-
 

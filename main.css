@@ -2,13 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Edu Tas Beginner', sans-serif;
 }
 
 header {
     height: 120px;
     background-size: cover;
     background-image: url("img/wall.png");
+    font-family: 'Edu Tas Beginner', sans-serif;
 }
 
 main {
@@ -42,6 +42,17 @@ img {
     background-color: white;
     cursor: pointer;   
     box-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+}
+
+.date {
+    font-family: 'Sometype Mono', monospace;
+    color: grey;
+}
+
+.title {
+    font-family: 'Edu Tas Beginner', sans-serif;
+    font-size: 25px;
 }
 
 .pin {
@@ -52,9 +63,11 @@ img {
 .card:hover {
     z-index: 900;
     transform: rotate(12deg) scale(1.1);
+    box-shadow: 5px 5px 5px black;
 }
 
 .card:hover .pin {
     display: none;
 }
+
 
