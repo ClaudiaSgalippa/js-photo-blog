@@ -40,6 +40,8 @@ img {
     width: 250px;
     padding: 10px;   
     background-color: white;
+    cursor: pointer;   
+    box-shadow: 3px 3px 3px black;
 }
 
 .pin {
@@ -47,4 +49,12 @@ img {
     transform: translate(100px, -20px);
 }
 
-/*EFFETTO HOVER POST VIDEO LEZIONE*/
+.card:hover {
+    z-index: 900;
+    transform: rotate(12deg) scale(1.1);
+}
+
+.card:hover .pin {
+    display: none;
+}
+

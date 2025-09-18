@@ -24,3 +24,6 @@ axios.get("https://lanciweb.github.io/demo/api/pictures/")
         }) //Recuperiamo il <div> dall'HTML e inseriamo i collegamenti per gli oggetti 
         containerCards.innerHTML = fakePolaroid;
     })
+
+
+
